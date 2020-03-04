@@ -85,18 +85,18 @@ hdr_compressed| 140.174| 143.709| 145.222
 As we can see, the HDR WLS algorithm has the most visually pleasing results. However, it is very slow. Anisotropic diffusion was proposed as a faster alternative, however halo artifacts can be seen on photos that were processed with it. The most effective algorithm seems to be the Bilateral Filter approach, which has similar results to the WLS approach (although introducing a bit more noise in the processed photo, it is barely noticeable) and runs 20x faster.
 
 Original:
-![Original Building](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/building_sky.jpg)
+![Original Building](docs/building_sky.jpg)
 Processed:
-![Enhanced Building](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/building_sky_comp.jpg)
+![Enhanced Building](docs/building_sky_comp.jpg)
 Original:
-![Original Underexposed](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/underexposed.jpg)
+![Original Underexposed](docs/underexposed.jpg)
 Processed:
-![Enhanced Underexposed](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/underexposed_comp.jpg)
+![Enhanced Underexposed](docs/underexposed_comp.jpg)
 
 ## Close-ups
 Original
-![Original Close-up](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/close-original.png)
+![Original Close-up](docs/close-original.png)
 HDR WLS
-![HDR WLS Close-up](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/close-wls.png)
+![HDR WLS Close-up](docs/close-wls.png)
 HDR Bilateral
-![HDR Bilateral Close-up](https://github.com/SectorLabs/internship2019/blob/2/auto-enhance/docs/close-bil.png)
+![HDR Bilateral Close-up](docs/close-bil.png)

@@ -1,0 +1,6 @@
+CMake_minimum_required(VERSION 2.8)
+project( hdr )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -std=gnu++0x")
+find_package( OpenCV REQUIRED )
+add_executable( hdr hdr.cpp )
+target_link_libraries( hdr ${OpenCV_LIBS} )

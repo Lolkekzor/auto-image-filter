@@ -1,0 +1,11 @@
+**/.DS_Store
+*.log
+# ignore all photos...
+*.jpg
+# except those in docs folder
+!/docs/**/*.jpg
+
+**.pyc
+# ignore folders for benchmark images
+/benchmark_results
+/benchmark_images
